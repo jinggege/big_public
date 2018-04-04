@@ -1,10 +1,10 @@
 module.exports = [
     {
         name:"big-public",
-        router:"/index",
-        controllerPath:"/controller/index.js",
+        router:"/demo",
+        controllerPath:"/controller/demo.js",
         methods:["GET","POST"],
-        desc:'首页'
+        desc:'demo'
     }
 
  

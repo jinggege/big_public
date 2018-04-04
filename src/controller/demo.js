@@ -15,7 +15,7 @@ class Index{
         var args = URL.parse(ctx.req.url,true).query;
         //var type = ctx.params.type;
         //var body = ctx.request.body;
-        ctx.body= await Render("index/index",{userName:"u==name=", level:100});
+        ctx.body= await Render("index/demo",{userName:"u==name=", level:100});
         
     }
 
