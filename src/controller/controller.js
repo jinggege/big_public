@@ -16,7 +16,6 @@ class Controller{
     start(app){
         this.app = app;
         this.regControl();
-
     }
 
     regControl(){
