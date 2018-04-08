@@ -4,7 +4,8 @@
 
 module.exports = {
     server:{
-        port:4000
+        name:"[BIG_PUBLIC]",
+        port:4002
     },
     static_domian:'http://static.big.com'
 
